@@ -1,8 +1,12 @@
 # group-project-module
-```
+
+
+## Usage:
+
+```hcl
 module "project"{
     source = ""
-    version = "v.0.0.1"
+    version = "0.0.1"
     region = "us-east-2"
     ec2_type = "t2.micro"
     vpc_cidr = "10.0.0.0/16"
