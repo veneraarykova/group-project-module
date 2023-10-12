@@ -1,6 +1,5 @@
 # group-project-module
-
-module "project"{
+```module "project"{
     source = ""
     version = "v.0.0.1"
     region = "us-east-2"
@@ -20,4 +19,4 @@ ip_on_launch = true
 sg_group ="security_group"
 default_cidr_block = "0.0.0.0/0"
 
-}
+}```
